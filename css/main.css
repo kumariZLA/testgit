@@ -1,0 +1,240 @@
+@font-face {
+    font-family: YesevaOne-Regular;
+    src: url("../font-family/YesevaOne-Regular.ttf");
+}
+@font-face {
+    font-family: Muller;
+    src: url("../font-family/ofont.ru_Muller.ttf");
+}
+@font-face {
+    font-family: MullerMedium;
+    src: url("../font-family/Muller.ttf");
+}
+@font-face {
+    font-family: MullerBold;
+    src: url("../font-family/Fontfabric - MullerBold.otf");
+}
+@font-face {
+    font-family: MullerRegularItalic;
+    src: url("../font-family/Fontfabric - MullerRegularItalic.otf");
+}
+@font-face {
+    font-family: MullerMediumItalic;
+    src: url("../font-family/Fontfabric - MullerMediumItalic.otf");
+}
+body {
+    margin: 0;
+}
+#header {
+    text-align: center;
+}
+#header-container {
+
+    margin: 0 auto;
+}
+#header-logo {
+    margin-top: 50px;
+}
+
+.logo1 {
+    font-size: 30px;
+    color: #896d37;
+    text-align: center;
+    text-decoration: none;
+    font-family: YesevaOne-Regular, sans-serif;
+}
+.logo-text {
+    margin-bottom: 50px;
+}
+.logo2 {
+    font-size: 11px;
+    color: #896d37;
+    text-align: center;
+    text-decoration: none;
+    font-family: Muller, sans-serif;
+    text-transform: uppercase;
+}
+
+div #header-menu {
+    border-top: 1px solid #e6dfd1;
+}
+#header-menu a {
+    font-size: 12px;
+    font-family: MullerMedium, sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #896d37;
+    margin: 30px 25px;
+}
+#header-menu a:hover {
+    color: #dfa850;
+}
+#image {
+    background-image: url("../images/analise-benevides-gWedi4SWsHQ-unsplash.png");
+    background-size: cover;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 127px;
+}
+#main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 125px;
+}
+
+h1   {
+    margin: 0;
+    font-size: 45px;
+    color: #896d37;
+    width: 573px;
+    font-family: YesevaOne-Regular, sans-serif;
+}
+#main-wedding {
+    margin-top: 50px;
+    display: inline-block;
+    vertical-align: bottom;
+    max-width: 604px;
+
+}
+
+#tittle {
+    max-width: 486px;
+    font-family: Muller, sans-serif;
+    font-size: 15px;
+    color: #896d37;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.wedding-menu {
+    max-width: 272px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 27px;
+    margin-top: 50px;
+}
+
+
+.wedding-image {
+    display: inline-block;
+    vertical-align: middle;
+    color: #896d37;
+    width: 21px;
+}
+.wedding-image i {
+  color: #c2914b;
+font-size: 21px;
+
+}
+.wedding-image i:hover{
+    color: #9b773d;
+}
+
+.wedding-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: MullerBold,sans-serif;
+    color: #896d37;
+    font-size: 18px;
+    margin-left: 11px;
+}
+.wedding-text-description {
+font-family: Muller, sans-serif;
+    font-size: 15px;
+    color: #896d37;
+    margin-top: 14px;
+    line-height: 20px;
+
+}
+#tittle-images {
+    display: inline-block;
+    vertical-align: middle;
+}
+.tittle-image {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.tittle-image:first-child {
+    margin-right: 24px;
+}
+#clients {
+    background-size: cover;
+    background: #f9f7f2;
+}
+#clients-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 0 85px 0;
+}
+#clients-tittle {
+    font-size:45px;
+    font-family: YesevaOne-Regular, sans-serif;
+    text-align: left;
+    color: #896d37;
+    margin-bottom: 66px;
+
+}
+.clients-image {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.clients-image:first-child {
+    margin-right: 20px;
+}
+.clients-image:nth-child(2) {
+    margin-right: 20px;
+}
+.clients-image:nth-child(3) {
+    margin-right: 20px;
+}
+.name {
+margin-top: 20px;
+    color: #beb39b;
+    font-family: MullerMediumItalic,sans-serif;
+    font-size: 18px;
+}
+#footer {
+    background: #e5d1c0;
+    padding: 27px 0;
+}
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+svg  {
+    fill:#896d37;
+    max-width: 30px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+}
+svg:hover {
+  fill:   #634d26;
+}
+#footer-logo {
+
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+svg:nth-child(3) {
+    margin-right: 350px;
+}
+#footer-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11px;
+    color: #896d37;
+    margin-left: 282px;
+    font-family: MullerRegularItalic, sans-serif;
+}
+
+
+
+
+
